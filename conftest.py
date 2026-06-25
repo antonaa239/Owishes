@@ -33,10 +33,6 @@ def reservation_client():
 
 @pytest.fixture(scope="session")
 def created_wid():
-    """
-    Создаёт wishlist один раз на всю сессию и возвращает его id.
-    Все тесты, которым нужен существующий wishlist, используют этот фикстур.
-    """
     client = WishlistClient()
     response = client.create({
         "title": "session_wishlist",
@@ -53,10 +49,6 @@ def created_wid():
 
 @pytest.fixture(scope="session")
 def created_item_id(created_wid):
-    """
-    Создаёт item один раз на всю сессию и возвращает его id.
-    Все тесты, которым нужен существующий wishlist, используют этот фикстур.
-    """
     client = ItemClient()
     data = {
         "title": "test_title",
