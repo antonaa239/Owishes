@@ -1,0 +1,3 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkNmRmNDY2Mi1kNzJiLTQ3ZjQtODhjMi0wYzA0MGY3ODY1NmYiLCJleHAiOjE3ODMwNjQ5MzF9.dG7UXl0il4bFiLVcMAVC3R-mO_5PCZzB9fBh8EGmLcE
+e3b17975-fbbe-482b-ae7e-897dac7ab912 {'title': 'test_title', 'url': 'https://www.brown.com/', 'price': 6167, 'priority': 'low', 'note': 'test_note'}
+{"id":"27979f54-597a-4e53-90e3-e4013066299e","wishlist_id":"e3b17975-fbbe-482b-ae7e-897dac7ab912","url":"https://www.brown.com/","title":"test_title","image_url":null,"price":6167,"priority":"low","note":"test_note","position":1,"is_reserved":false,"created_at":"2026-06-26T08:06:52.057825","reservation":null}

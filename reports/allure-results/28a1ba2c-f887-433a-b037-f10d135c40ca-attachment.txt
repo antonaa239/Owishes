@@ -1,0 +1,3 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkNmRmNDY2Mi1kNzJiLTQ3ZjQtODhjMi0wYzA0MGY3ODY1NmYiLCJleHAiOjE3ODMwNjQ5MzF9.dG7UXl0il4bFiLVcMAVC3R-mO_5PCZzB9fBh8EGmLcE
+9aba9d5d-1ab2-486f-b753-afb93429a8c6 {'title': 'test_title', 'url': 'https://kim.com/', 'price': 7150, 'priority': 'low', 'note': 'test_note'}
+{"id":"90fec36f-8632-49a4-8ee4-1cdad9b7fee6","wishlist_id":"9aba9d5d-1ab2-486f-b753-afb93429a8c6","url":"https://kim.com/","title":"test_title","image_url":null,"price":7150,"priority":"low","note":"test_note","position":0,"is_reserved":false,"created_at":"2026-06-26T08:12:38.332923","reservation":null}

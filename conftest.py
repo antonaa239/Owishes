@@ -32,7 +32,7 @@ def reservation_client():
     return ReservationClient()
 
 @pytest.fixture(scope="session")
-def created_wid():
+def created_wishlist_id():
     client = WishlistClient()
     response = client.create({
         "title": "session_wishlist",
@@ -48,7 +48,7 @@ def created_wid():
     return wishlist_id
 
 @pytest.fixture(scope="session")
-def created_item_id(created_wid):
+def created_item_id(created_wishlist_id):
     client = ItemClient()
     data = {
         "title": "test_title",
@@ -57,7 +57,7 @@ def created_item_id(created_wid):
         "priority": "low",
         "note": "test_note"
     }
-    response = client.create(created_wid, data)
+    response = client.create(created_wishlist_id, data)
     assert response.status_code == 201, (
         f"Не удалось создать wishlist в session fixture: "
         f"{response.status_code} {response.text}"

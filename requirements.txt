@@ -7,3 +7,4 @@ playwright
 pytest-playwright
 allure-pytest
 python-dotenv
+allure-pytest

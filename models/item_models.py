@@ -18,7 +18,7 @@ class ItemOutModel(BaseModel):
     priority: str
     note: str
     position: int
-    is_resered: bool
+    is_reserved: bool
     created_at: datetime
     reservation: Reservation
 
@@ -32,7 +32,7 @@ class ItemModel(BaseModel):
     priority: str
     note: str
     position: int
-    is_resered: bool
+    is_reserved: bool
     created_at: datetime
     reservation: Reservation
 
@@ -46,7 +46,7 @@ class ItemOutModel(BaseModel):
     priority: str
     note: str
     position: int
-    is_resered: bool
+    is_reserved: bool
     created_at: datetime
     reservation: Reservation
 
@@ -58,4 +58,4 @@ class ItemPublicModel(BaseModel):
     priority: str
     note: str
     position: int
-    is_resered: bool
+    is_reserved: bool
